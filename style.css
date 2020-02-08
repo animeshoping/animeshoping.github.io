@@ -1,0 +1,36 @@
+#text{
+    color:darkblue;
+    text-align: center;
+    font-family:cursive;
+    
+}
+#text2{
+    color: darkblue;
+   
+    font-family:"Helvetica", sans-serif;
+}
+#text3{
+    text-align: center
+}
+body{
+    background-color:darkseagreen;
+}
+#text4{
+    color:blue;
+    font-family: cursive;
+   
+    
+}
+#text5{
+    color: darkblue;
+    
+}
+#text6{
+    color:blue;
+    font-family: cursive;
+    
+    
+}
+a{
+    text-decoration: none;
+}
