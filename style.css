@@ -93,3 +93,43 @@ a{
    top: -390px;
      position:relative;
 }
+#text11{
+   
+ width: 10px;
+ padding-left: 1000px;
+ position:relative;
+    top: -900px;
+}
+#text130{
+     color: crimson;
+     margin-left: 1000px;
+   top: -900px;
+     position:relative;
+}
+
+#text131{
+     color:brown;
+     margin-left: 1000px;
+   top: -900px;
+     position:relative;
+}
+#text12{
+      
+ width: 10px;
+ padding-left: 1500px;
+ position:relative;
+    top: -1490px;
+}
+#text135{
+     color: crimson;
+     margin-left: 1600px;
+   top: -1500px;
+     position:relative;
+}
+
+#text136{
+     color:brown;
+     margin-left: 1600px;
+   top: -1500px;
+     position:relative;
+}
