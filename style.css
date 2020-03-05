@@ -157,6 +157,7 @@
     background: #007bff;
     cursor: pointer;
     transition: 0.7s;
+    
 }
 /*_________Team Members-------*/
 #team{
@@ -176,5 +177,92 @@ h1::after{
     height: 3px;
     width: 170px;
     margin: 20px auto 5px;
+    margin-left: -900;
     
+}
+.profile-pic{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box
+{
+   filter: grayscale(1);
+}
+.profile-pic .img-box:hover
+{
+   filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+    margin-left: -400;
+}
+.profile-pic h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+    margin-left:  -150;
+}
+.profile-pic h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+    margin-left:  100;
+}
+.profile-pic h5{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+    margin-left:  200;
+   
+}
+#team .fa{
+    height: 25px;
+    width: 25px;
+    color: #007bff !important;
+    background: #fff;
+    padding:  4px;
+    border-radius: 50%;
+}
+.img-box ul{
+    padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li{
+    transition: 0.5s;
+}
+#image1{
+    margin-left: -400;
+}
+#image2{
+    margin-left: -150;
+}
+#image3{
+    margin-left: 50px;
+}
+#image4{
+    margin-left: 100px;
 }
