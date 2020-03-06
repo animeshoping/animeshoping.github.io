@@ -266,3 +266,16 @@ h1::after{
 #image4{
     margin-left: 100px;
 }
+/*--------promo------*/
+#promo{
+    background-size:cover;
+    background-position: center;
+    color:black;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+   background: green;
+}
+
